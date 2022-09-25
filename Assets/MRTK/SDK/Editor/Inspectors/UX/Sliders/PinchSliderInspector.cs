@@ -45,11 +45,11 @@ namespace Microsoft.MixedReality.Toolkit.Editor
                 EditorGUI.BeginChangeCheck();
 
                 float handleSize = HandleUtility.GetHandleSize(startPos) * 0.15f;
-                var fmh_49_21_637997494015450556 = Quaternion.identity; slider.SliderStartPosition = Handles.FreeMoveHandle(startPos,
+                var fmh_49_21_637997497174149529 = Quaternion.identity; slider.SliderStartPosition = Handles.FreeMoveHandle(startPos,
                     handleSize,
                     Vector3.zero,
                     Handles.SphereHandleCap);
-                var fmh_54_21_637997494015481670 = Quaternion.identity; slider.SliderEndPosition = Handles.FreeMoveHandle(endPos,
+                var fmh_54_21_637997497174170463 = Quaternion.identity; slider.SliderEndPosition = Handles.FreeMoveHandle(endPos,
                     handleSize,
                     Vector3.zero,
                     Handles.SphereHandleCap);

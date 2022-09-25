@@ -223,7 +223,7 @@ namespace Microsoft.MixedReality.Toolkit.Utilities.Editor
 
             Handles.DrawDottedLine(origin, position, DottedLineScreenSpace);
             Handles.ArrowHandleCap(0, position, Quaternion.LookRotation(direction), handleSize * 2, EventType.Repaint);
-            var fmh_226_68_637997494016495226 = Quaternion.identity; Vector3 newPosition = Handles.FreeMoveHandle(position, handleSize, Vector3.zero, Handles.CircleHandleCap);
+            var fmh_226_68_637997497173987254 = Quaternion.identity; Vector3 newPosition = Handles.FreeMoveHandle(position, handleSize, Vector3.zero, Handles.CircleHandleCap);
 
             if (recordUndo)
             {
@@ -285,7 +285,7 @@ namespace Microsoft.MixedReality.Toolkit.Utilities.Editor
                 handleSize = Mathf.Lerp(handleSize, HandleUtility.GetHandleSize(position) * handleSize, 0.75f);
             }
 
-            var fmh_288_68_637997494016515637 = Quaternion.identity; Vector3 newPosition = Handles.FreeMoveHandle(position, handleSize, Vector3.zero, Handles.CircleHandleCap);
+            var fmh_288_68_637997497174008264 = Quaternion.identity; Vector3 newPosition = Handles.FreeMoveHandle(position, handleSize, Vector3.zero, Handles.CircleHandleCap);
 
             if (recordUndo && position != newPosition)
             {
@@ -321,7 +321,7 @@ namespace Microsoft.MixedReality.Toolkit.Utilities.Editor
             }
 
             // Multiply square handle to match other types
-            var fmh_324_68_637997494016518074 = Quaternion.identity; Vector3 newPosition = Handles.FreeMoveHandle(position, handleSize * 0.8f, Vector3.zero, Handles.RectangleHandleCap);
+            var fmh_324_68_637997497174010644 = Quaternion.identity; Vector3 newPosition = Handles.FreeMoveHandle(position, handleSize * 0.8f, Vector3.zero, Handles.RectangleHandleCap);
 
             if (recordUndo && position != newPosition)
             {
@@ -357,7 +357,7 @@ namespace Microsoft.MixedReality.Toolkit.Utilities.Editor
             }
 
             // Multiply sphere handle size to match other types
-            var fmh_360_68_637997494016519819 = Quaternion.identity; Vector3 newPosition = Handles.FreeMoveHandle(position, handleSize * 2, Vector3.zero, Handles.SphereHandleCap);
+            var fmh_360_68_637997497174012380 = Quaternion.identity; Vector3 newPosition = Handles.FreeMoveHandle(position, handleSize * 2, Vector3.zero, Handles.SphereHandleCap);
 
             if (recordUndo && position != newPosition)
             {
