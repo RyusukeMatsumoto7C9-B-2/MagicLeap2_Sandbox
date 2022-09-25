@@ -1,0 +1,18 @@
+{
+  "name": "com.magicleap.mrtk",
+  "displayName": "MRTK Magic Leap 2",
+  "version": "1.0.0",
+  "unity": "2022.1",
+  "documentationUrl": "https://github.com/magicleap/MRTK-MagicLeap",
+  "description": "An extension to provide compatibility with Magic Leap features such as hand tracking and 6dof controller support, to Microsoft's Mixed reality Toolkit (MRTK).",
+  "keywords": [
+    "magicleap",
+    "mrtk",
+    "AR",
+    "lumin"
+  ],
+  "author": {
+    "name": "Magic Leap",
+    "url": "https://developer.magicleap.com/"
+  }
+}
